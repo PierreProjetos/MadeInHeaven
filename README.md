@@ -8,3 +8,6 @@ Conversão de real para dolar
 
 Converção de temperatura
 #https://scratch.mit.edu/projects/505012266
+
+Troca de variaveis
+#https://scratch.mit.edu/projects/505021720
