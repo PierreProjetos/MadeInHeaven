@@ -5,3 +5,6 @@ Aula de variáveis
 
 Conversão de real para dolar
 #https://scratch.mit.edu/projects/504998939
+
+Converção de temperatura
+#https://scratch.mit.edu/projects/505012266
