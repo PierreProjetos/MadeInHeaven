@@ -1,0 +1,34 @@
+Css
+
+            p {
+               color: black;
+               text-align: justify;
+               }
+            h1{
+            font-size: 30px;
+            text-align: center
+               }
+            h2{
+            	font-size: 25px;
+            	color: indigo
+            }
+
+            ul li{
+
+                text-decoration: underline;
+                color: #fff;
+                font-weight: bolder;
+
+            }
+
+            figure{
+
+                text-align: center;
+                border: Spx dashed #EE82EE;
+            }
+
+            img{
+                
+                border: Spx dashed #EE82EE;
+
+            }
