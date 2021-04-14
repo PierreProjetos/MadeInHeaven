@@ -1,0 +1,83 @@
+
+
+            body {
+
+                background-image: url("../Imagens/Fundo.jpg");
+                background-repeat: round;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+
+            p {
+               color: red ;
+               text-align: justify;
+               text-align: center;
+            }
+
+            h1{
+               color: #800000 ;
+               font-size: 30px;
+               text-align: center
+               }
+
+            h2{
+              	font-size: 25px;
+            	 color: red;
+                text-align: center;
+            }
+
+            ol,li{
+            	text-decoration: underline;
+            	color: red;
+            	font-weight: 
+            }
+
+            a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+            table{
+            	font-family: arial, sans-serif;
+            	border-collapse: collapse;
+            	width: 100%;
+
+            }
+
+            td,th{
+
+            	color: red;
+            	border: 3px solid red;
+            	padding: 10px;
+
+            }
+
+            tr:nth-child(even) {
+              background-color: #fff;
+
+            }
+
+            
+
