@@ -1,13 +1,5 @@
 # https://pierreprojetos.github.io/MadeInHeaven/
 MadeInHeaven
-Aula de variáveis 
-#https://scratch.mit.edu/projects/501163852
 
-Conversão de real para dolar
-#https://scratch.mit.edu/projects/504998939
-
-Converção de temperatura
-#https://scratch.mit.edu/projects/505012266
-
-Troca de variaveis
-#https://scratch.mit.edu/projects/505021720
+Segunda versão do site
+# file:///C:/Users/Ederson/Desktop/Teste/index.html
