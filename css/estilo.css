@@ -1,83 +1,164 @@
 
+              html{
+                scroll-behavior: smooth;
+              }
 
-            body {
+              body {
 
-                background-image: url("../Imagens/Fundo.jpg");
-                background-repeat: round;
-                width: 50%;
-                margin-left: auto;
-                margin-right: auto;
-            }
+                  background-image: url("../img/Fundo.jpg");
+                  background-repeat: round;
+                  font-family: 'Indie Flower', cursive;
+              }
 
+          @media screen and (max-width: 599px){
+                .container{
+                  margin-top:65%;
+                }
+              }
 
-            p {
-               color: red ;
-               text-align: justify;
-               text-align: center;
-            }
+          @media screen and (min-width: 600px){
+                .container{
+                  margin-top:40%;
+                }
+              }
 
-            h1{
-               color: #800000 ;
-               font-size: 30px;
-               text-align: center
-               }
+          /*telas maiores que 768*/
+          @media only screen and (min-width: 768px){
+                .container{
+                  margin-top: 20%;
+                }
+                  header{
+                    background-color: rgba(255,99,71,0.5);
+                    flex-direction: row;
+                    position: relative;                    
+                  }
+              }
 
-            h2{
-              	font-size: 25px;
-            	 color: red;
-                text-align: center;
-            }
+              .container{
+                  
+                  width: 80%;
+                  margin-left: auto;
+                  margin-right: auto;
+                  position: relative;
+              }
 
-            ol,li{
-            	text-decoration: underline;
-            	color: red;
-            	font-weight: 
-            }
+              .imglogo{
+                position: absolute;
+                left: 5%;
+                top: 12%;
+              }
 
-            a:link {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
+              .ajustes{
+                line-height: 1;
+              }
 
-a:visited {
-  color: purple;
-  background-color: transparent;
-  text-decoration: none;
-}
+              .ajustes li:hover{
+                background-color: gray;
+              }
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
+              .menu-opcoes{
+                position: absolute;
+                right: 5%;
+                top: 45%%;
+              }
 
-a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-</style>
+              .menu-opcoes ul li{
+                display: inline;
+                margin-left: 10px;
+                margin-top: 10px;
+              }
 
-            table{
-            	font-family: arial, sans-serif;
-            	border-collapse: collapse;
-            	width: 100%;
+              header, footer{
+                background-color: rgb(255,99,71);
+                padding: 3%;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 1.5em;
+                line-height: 1.5;
+              }
 
-            }
+              .fixo{
+                position: fixed;
+                top: 0;
+                right: 0;
+                left: 0;
+                z-index: 1030;
+              }
 
-            td,th{
+              p {
+                 color: red ;
+                 text-align: justify;
+                 text-align: center;
+              }
 
-            	color: red;
-            	border: 3px solid red;
-            	padding: 10px;
+              h1{
+                 color: #800000 ;
+                 font-size: 30px;
+                 text-align: center
+                 }
 
-            }
+              h2{
+                	font-size: 25px;
+              	 color: red;
+                  text-align: center;
+              }
 
-            tr:nth-child(even) {
-              background-color: #fff;
+              .imgtexto{
+                  border: 5px dashed #fff;
+                  width: 70px;
+              }
 
-            }
+              
 
-            
+              ol,li{
+              	text-decoration: underline;
+              	color: red;
+              	font-weight: 
+              }
 
+              a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  </style>
+
+              table{
+              	font-family: arial, sans-serif;
+              	border-collapse: collapse;
+              	width: 100%;
+
+              }
+
+              td,th{
+
+              	color: red;
+              	border: 3px solid red;
+              	padding: 10px;
+
+              }
+
+              tr:nth-child(even) {
+                background-color: #fff;
+
+              }
