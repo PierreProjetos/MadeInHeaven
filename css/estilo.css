@@ -5,10 +5,16 @@
 
               body {
 
-                  background-image: url("../img/Fundo.jpg");
+                  background-image: url("../img/fundoP.jpg");
                   background-repeat: round;
                   font-family: 'Indie Flower', cursive;
               }
+
+           /*telas maiores que 768*/
+          @media only screen and (min-width: 768px){
+                .container{
+                  margin-top: 20%;
+                }
 
           @media screen and (max-width: 599px){
                 .container{
@@ -20,13 +26,7 @@
                 .container{
                   margin-top:40%;
                 }
-              }
 
-          /*telas maiores que 768*/
-          @media only screen and (min-width: 768px){
-                .container{
-                  margin-top: 20%;
-                }
                   header{
                     background-color: rgba(255,99,71,0.5);
                     flex-direction: row;
@@ -40,6 +40,7 @@
                   margin-left: auto;
                   margin-right: auto;
                   position: relative;
+                  margin-bottom: 10%;
               }
 
               .imglogo{
@@ -58,25 +59,36 @@
 
               .menu-opcoes{
                 position: absolute;
-                right: 5%;
-                top: 45%%;
+                right: 20%;
+                top: 25%;
               }
 
               .menu-opcoes ul li{
                 display: inline;
-                margin-left: 10px;
+                margin-left: 30px;
                 margin-top: 10px;
               }
 
               header, footer{
-                background-color: rgb(255,99,71);
+                background-color: #9400D3;
                 padding: 3%;
                 position: relative;
+                opacity: 0.5;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 font-size: 1.5em;
                 line-height: 1.5;
+              }
+
+              footer{
+                position: fixed;
+                padding: 2%;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                z-index: 1030;
+
               }
 
               .fixo{
@@ -96,7 +108,7 @@
               h1{
                  color: #800000 ;
                  font-size: 30px;
-                 text-align: center
+                 text-align: center;
                  }
 
               h2{
@@ -107,16 +119,87 @@
 
               .imgtexto{
                   border: 5px dashed #fff;
-                  width: 70px;
+                  width: 500px;
+                   
               }
-
-              
 
               ol,li{
               	text-decoration: underline;
               	color: red;
               	font-weight: 
               }
+
+              .imggaleria{
+                width: 50%;
+                border-radius: 20px;
+                box-shadow: 10px 20px #4169E1
+              }
+
+              #galeria{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                margin: 2px 2px;
+
+              }
+
+              #galeria .galeria{
+                width: 50%;
+                text-align: center;
+                margin-bottom: 2%
+              }
+
+              .testelogo{
+                float: right;
+
+              }
+
+              .testepa{
+                margin-left: 25%;
+
+              }
+
+              .fundo{
+
+                background: #4B0082;
+                opacity: 0.5;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 3%;
+                font-size: 1.2em;
+
+              }
+
+             .distancia{
+              margin-top: 2%;
+              margin-bottom: 2%;
+
+             }
+
+             input[type=text], select, textarea {
+                  width: 80%;
+                  padding: 12px 20px;
+                  display: block;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+
+
+             }
+
+            input[type=submit] {
+              width: 100%;
+              background-color: #9400D3;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer; 
+
+            }
 
               a:link {
     color: blue;
@@ -125,7 +208,7 @@
   }
 
   a:visited {
-    color: purple;
+    color: #191970;
     background-color: transparent;
     text-decoration: none;
   }

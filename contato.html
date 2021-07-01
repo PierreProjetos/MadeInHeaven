@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	 <meta charset="utf-8">
+     <meta name="viewport" content="widh=device=width,initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title> Introdução ao HTML e CSS </title>
+    
+</head>
+<body>
+    <header class="fixo">
+    	<h1><img class="imglogo" src="img/logotipo.png"></h1>
+		<nav class="menu-opcoes">
+			<ul class="ajustes">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#htmlecss">Html e Css</a></li>
+				<li><a href="#curiosidades">Curiosidades</a></li>
+				<li><a href="Javascript.html">javaScript</a></li>
+				<li><a href="posicionamento.html">Posicionamento</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+    <div class="container">
+    	<h1 class="titulos"> Formulário de contato</h1>
+
+    		<p class="centro"> Entre em contato conosco para fazer suas perguntas e sugestões </p>
+    		<div class="fundo">
+	    		<form>
+	    			<div class="distancia">
+	    				<label>Nome:</label>
+	    				<input type="text" placeholder="Digite seu nome">
+	    			</div>
+	    			<div>
+	    				<label>Assunto: </label>
+	    				<input type="text" placeholder="Digite o assunto">
+	    			</div>
+	    			<div class="distancia">
+	    				<fieldset>
+	    					<legend> Qual o seu sexo? </legend>
+	    				<input type="radio" id="male" name="gender">
+	    				<label for="male">Feminino</label><br>
+	    				<input type="radio" id="female" name="gender" value="female">
+	    				<label for="female">Masculino</label><br>
+	    				</fieldset>
+	    			</div>
+	    			<div class="distancia">
+	    				<fieldset>
+	    					<legend> Qual o seu gosto musical? </legend>
+	    				<input type="checkbox" id="male" name="gender">
+	    				<label for="male">Metal</label><br>
+	    				<input type="checkbox" id="female" name="gender" value="female">
+	    				<label for="female">Indie</label><br>
+	    				<input type="checkbox" id="male" name="gender">
+	    				<label for="male">Hip-hop</label><br>
+	    				<input type="checkbox" id="female" name="gender" value="female">
+	    				<label for="female">Pagode</label><br>
+	    				</fieldset>
+	    			</div>
+	    			<div class="distancia">
+	    				<label for="cars"> Escolaridade </label>
+	    					<select id="cars" name="cars">
+	    						<option value="volvo"> Fundamental </option>
+	    						<option value="saab"> Ensino Médio</option>
+	    						<option value="fiat"> Superior </option>
+	    						<option value="audi"> Especialização </option>
+	    					</select>
+	    			</div>
+	    			<div class="distancia">
+	    				<label for="cars"> Sugestão ou Duvida </label>
+	    				<textarea name="message" style="width: 80%; height: 200px;"> Digite seu texto</textarea>
+	    			</div>
+	    			<div class="distancia">
+	    				<input type="submit" value="enviar">
+	    			</div>
+	    		</form>
+        	</div>
+    </div>
+    	<div class="footer">
+	</div>
+			
+    <footer>Rodapé</footer>
+</body>
+</html>
